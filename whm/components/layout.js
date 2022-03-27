@@ -14,15 +14,15 @@ export default function Layout({ children, home }) {
           <>
           <ul>
             <li><Link href="/">
-              <a className="navbar">Home</a>
+              <a className="navbar">../</a>
             </Link></li>
 
             <li><Link href="/whyot">
-              <a className="navbar">Why OT</a>
+              <a className="navbar">MOXIE! info</a>
             </Link></li>
             
             <li><Link href="/">
-              <a className="navbar">Solutions</a>
+              <a className="navbar">Bios</a>
             </Link></li>
             
           </ul>
