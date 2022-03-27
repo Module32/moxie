@@ -26,8 +26,6 @@ ul {
   -webkit-backdrop-filter: blur(10px);
   background-blend-mode: exclusion;
   background: rgba(255, 255, 255, .3);
-  position: fixed;
-  z-index: 1030;
 }
 
 li {
