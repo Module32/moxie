@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import React, { useEffect, useState } from "react"
 import styles from './layout.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const name = 'Module64'
 export const siteTitle = 'Open Terminal'
@@ -14,7 +15,7 @@ export default function Layout({ children, home }) {
           <>
           <ul>
             <li><Link href="/">
-              <a className="navbar">../</a>
+              <a className="navbar"><FontAwesomeIcon icon="house-chimney" /></a>
             </Link></li>
 
             <li><Link href="/whyot">
