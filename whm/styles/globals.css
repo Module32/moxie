@@ -31,17 +31,17 @@ ul {
 li {
   display: inline;
   font-weight: 600;
-  padding: 15px;
-  transition: 150ms;
-  border-radius: 10px;
-}
-
-li:hover {
-  background-color: rgb(255, 255, 255, 0.3);
 }
 
 a.navbar {
   color: black;
+  border-radius: 10px;
+  padding: 15px;
+  transition: 150ms;
+}
+
+a.navbar:hover {
+  background-color: rgb(255, 255, 255, 0.3);
 }
 
 .all {
