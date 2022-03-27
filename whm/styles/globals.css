@@ -19,11 +19,13 @@ a {
 
 ul {
   width: 95%;
-  background-color: #15cf4c;
   padding: 25px;
   margin: 30px;
   border-radius: 15px;
-  box-shadow: 0px 5px 20px rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-blend-mode: exclusion;
+  background: rgba(255, 255, 255, .6);
 }
 
 li {
@@ -36,6 +38,10 @@ li {
 
 li:hover {
   background-color: rgb(255, 255, 255, 0.3);
+}
+
+a.navbar {
+  color: white;
 }
 
 .all {
