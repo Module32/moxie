@@ -11,7 +11,10 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <footer>
-        <h1>hello</h1>
+        <div style={{display: 'flex'}}>
+          <div style={{flexDirection: 'row'}}><p>Made with 🍫 by Anaya and Ekya</p></div>
+          <div style={{flexDirection: 'row', marginLeft: 'auto'}}><p><a href="https://discord.gg/Gv6zCtSJCu">Join MOXIE!</a></p></div>
+        </div>
       </footer>
     </div>
 

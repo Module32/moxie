@@ -64,3 +64,13 @@ a.navbar:hover {
   background-size: cover;
   padding: 0 5rem;
 }
+
+footer {
+  background-color: #FAF9F6;
+  padding: 10px;
+  color: #171716;
+}
+
+a.footer {
+  color: #171716;
+}

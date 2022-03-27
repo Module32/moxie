@@ -15,6 +15,7 @@ export default function Home() {
           </div>
         </>
       </Layout>
+      <Footer></Footer>
     </div>
   )
 }
