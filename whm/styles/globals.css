@@ -54,3 +54,13 @@ a.navbar:hover {
    8px 8px 12px rgba(0,0,0,0.08);
    caret-color:#262626;
 }
+
+.butterflies {
+  background-image: url("/pics/butterfliesuwu.png");
+  background-repeat: no-repeat;
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 5rem;
+}
