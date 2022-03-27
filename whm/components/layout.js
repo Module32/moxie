@@ -14,6 +14,7 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
           <>
           <ul>
+            <li><Image src="/imgs/butterfliesuwu.png" width={50} height={50}/></li>
             <li><Link href="/">
               <a className="navbar"><FontAwesomeIcon icon="house-chimney" /></a>
             </Link></li>
