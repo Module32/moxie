@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
       <footer>
         <div style={{display: 'flex'}}>
           <div style={{flexDirection: 'row'}}><p>Made with 🍫 by Anaya and Ekya</p></div>
-          <div style={{flexDirection: 'row', marginLeft: 'auto'}}><p><a href="https://discord.gg/Gv6zCtSJCu">Join MOXIE!</a></p></div>
+          <div style={{flexDirection: 'row', marginLeft: 'auto'}}><p><a href="https://discord.gg/Gv6zCtSJCu" className="footer">Join MOXIE!</a></p></div>
         </div>
       </footer>
     </div>
