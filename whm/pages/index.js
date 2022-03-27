@@ -11,7 +11,7 @@ export default function Home() {
       <Layout>
         <>
           <div className="all">
-            <h1 className="shadow" style={{fontSize: '9.5vw'}}>A lasting mark on the world and Womanhood forever</h1>
+            <h1 className="shadow" style={{fontSize: '8.5vw'}}>A lasting mark on the world and Womanhood forever</h1>
           </div>
         </>
       </Layout>
