@@ -10,7 +10,7 @@ export default function Home() {
     <div className={styles.container}>
       <Layout>
         <>
-          <div className="butterflies" style={{paddingBottom: '100px'}}>
+          <div className="butterflies" style={{paddingBottom: '150px', paddingTop: '150px'}}>
             <h1 className="shadow" style={{fontSize: '8.5vw'}}>A lasting mark on the world and Womanhood forever</h1>
           </div>
         </>
