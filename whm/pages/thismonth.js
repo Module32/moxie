@@ -11,7 +11,7 @@ export default function Thismonth() {
       <Layout>
         <>
           <div className="butterflies" style={{paddingBottom: '50px', paddingTop: '150px'}}>
-            <h1 className="shadow" style={{margin: '0'}}>This month in MOXIE!: Women's History Month</h1>
+            <h1 className="shadow" style={{margin: '0'}}>This month in MOXIE!: Women&apos;s History Month</h1>
 
             <div className="infocard">
             <div style={{margin: '5px'}}>
