@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import React, { useEffect, useState } from "react"
 import styles from './layout.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const name = 'Module64'
 export const siteTitle = 'Open Terminal'
@@ -15,17 +14,25 @@ export default function Layout({ children, home }) {
           <>
           <ul>
           <li><Link href="/">
-              <a className="https://discord.gg/Gv6zCtSJCu"><span className="code">MOXIE!</span></a>
+              <a className="/"><span className="code">MOXIE!</span></a>
           </Link></li>
 
           <li><span className="grey">|</span></li>
 
-            <li><Link href="/whyot">
+            <li><Link href="/">
               <a className="navbar">MOXIE! info</a>
             </Link></li>
             
+            <li><Link href="/thismonth">
+              <a className="navbar">This month</a>
+            </Link></li>
+
             <li><Link href="/">
-              <a className="navbar">Bios</a>
+              <a className="navbar">Resources</a>
+            </Link></li>
+
+            <li><Link href="/">
+              <a className="navbar">Meeting plans</a>
             </Link></li>
             
           </ul>
