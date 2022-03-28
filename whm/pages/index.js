@@ -11,8 +11,8 @@ export default function Home() {
       <Layout>
         <>
           <div className="butterflies" style={{paddingBottom: '150px', paddingTop: '150px', marginTop: '-150px'}}>
-            <p style={{margin: '0'}}><span style={{padding: '5px', backgroundColor: 'white', color: 'black', fontWeight: '600', borderRadius: '4px'}}>This month in MOXIE!</span></p>
-            <h1 className="shadow" style={{fontSize: '8.5vw'}}>A lasting mark on the world and Womanhood forever</h1>
+            <p style={{margin: '0'}}><span style={{padding: '10px', backgroundColor: 'white', color: 'black', fontWeight: '600', borderRadius: '6px'}}>This month in MOXIE!</span></p>
+            <h1 className="shadow" style={{fontSize: '8.5vw', margin: '0'}}>A lasting mark on the world and Womanhood forever</h1>
           </div>
         </>
       </Layout>
