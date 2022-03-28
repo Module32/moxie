@@ -12,7 +12,7 @@ export default function Home() {
         <>
           <div className="mainpic" style={{paddingBottom: '200px', paddingTop: '250px'}}>
             <h1 className="shadow" style={{fontSize: '5.5vw', margin: '0', paddingBottom: '40px'}}>Raising awareness<br></br>Raising revolution</h1>
-            <a href="/moxieinfo" className="padding">Read about MOXIE!'s goal</a>
+            <a href="/moxieinfo" className="padding">Read about MOXIE!&apos;s goal</a>
           </div>
         </>
       </Layout>
