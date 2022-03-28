@@ -20,10 +20,6 @@ export default function Layout({ children, home }) {
 
           <li><span className="grey">|</span></li>
 
-            <li><Link href="/">
-              <a className="navbar"><FontAwesomeIcon icon="house-chimney" /></a>
-            </Link></li>
-
             <li><Link href="/whyot">
               <a className="navbar">MOXIE! info</a>
             </Link></li>
