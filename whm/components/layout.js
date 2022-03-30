@@ -17,7 +17,7 @@ export default function Layout({ children, home }) {
               <a className="/"><span className="code">MOXIE!</span></a>
           </Link></li>
 
-          <li><span className="grey">|</span></li>
+          <li style={{padding: '2px'}}><span className="grey">|</span></li>
 
             <li><Link href="/">
               <a className="navbar">MOXIE! info</a>

@@ -32,6 +32,7 @@ ul {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   background-blend-mode: exclusion;
+  z-index: 1030;
   position: fixed;
   background: rgba(255, 255, 255, .3);
 }
@@ -44,7 +45,7 @@ li {
 
 a.navbar {
   border-radius: 10px;
-  text-decoration: underline;
+  text-decoration: none;
   color: black;
   transition: 150ms;
 }
@@ -60,7 +61,7 @@ a.navbar:hover {
 .shadow {
   text-shadow: 
    -8px -8px 12px rgba(255,255,255,0.4),
-   8px 8px 12px rgba(0,0,0,0.08);
+   8px 8px 12px rgba(0,0,0,0.12);
    caret-color:#262626;
 }
 
@@ -107,14 +108,12 @@ a.footer {
   display:flex;
   align-items:center;
   justify-content:center;
-  padding: 70px;
+  padding: 5px;
+  border-radius: 5px;
   margin: 5px;
   text-align: left;
   width: 90%;
-}
-
-.infocard > * {
-  padding-left: 30px;
+  background-color: rgb(255, 255, 255, 0.4);
 }
 
 a.padding, button {
@@ -134,4 +133,8 @@ a.padding, button {
 a.padding:hover, button:hover {
   background-color: rgb(216, 216, 216);
   cursor: pointer;
+}
+
+img {
+  border-radius: 5px;
 }
